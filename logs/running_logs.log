@@ -73,3 +73,1041 @@ x==========x]
 [2025-07-29 23:26:21,326: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-07-30 11:16:05,912: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:16:05,915: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:16:05,916: INFO: common: created directory at: artifacts]
+[2025-07-30 11:16:07,949: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:18:50,099: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:18:50,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:18:50,107: INFO: common: created directory at: artifacts]
+[2025-07-30 11:18:51,859: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:23:25,046: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:23:25,049: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:23:25,049: INFO: common: created directory at: artifacts]
+[2025-07-30 11:23:26,815: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:31:09,251: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:31:09,253: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:31:09,254: INFO: common: created directory at: artifacts]
+[2025-07-30 11:31:10,965: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:33:17,449: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:33:17,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:33:17,451: INFO: common: created directory at: artifacts]
+[2025-07-30 11:33:19,136: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:41:46,846: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:41:46,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:41:46,849: INFO: common: created directory at: artifacts]
+[2025-07-30 11:41:48,596: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:43:40,323: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:43:40,325: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:43:40,325: INFO: common: created directory at: artifacts]
+[2025-07-30 11:43:42,032: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:45:32,458: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:45:32,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:45:32,462: INFO: common: created directory at: artifacts]
+[2025-07-30 11:45:34,211: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:46:42,995: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:46:42,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:46:42,998: INFO: common: created directory at: artifacts]
+[2025-07-30 11:46:44,688: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:47:16,615: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:47:16,617: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:47:16,617: INFO: common: created directory at: artifacts]
+[2025-07-30 11:47:18,304: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:47:26,925: INFO: _client: HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"]
+[2025-07-30 11:47:27,075: INFO: _client: HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"]
+[2025-07-30 11:47:27,225: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-07-30 11:47:27,233: INFO: helpers: Accessing as selvintuscano31]
+[2025-07-30 11:47:27,429: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 404 Not Found"]
+[2025-07-30 11:47:27,435: INFO: helpers: Repository Kidney-Disease-Classification-Deep-Learning doesn't exist, creating it under current user.]
+[2025-07-30 11:47:28,137: INFO: _client: HTTP Request: POST https://dagshub.com/api/v1/user/repos "HTTP/1.1 201 Created"]
+[2025-07-30 11:47:28,286: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-07-30 11:47:28,294: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:47:28,297: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:47:29,869: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmppt9sjyq9/model/data/model/assets]
+[2025-07-30 11:51:01,502: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:51:01,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:51:01,505: INFO: common: created directory at: artifacts]
+[2025-07-30 11:51:03,215: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:51:03,379: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 11:51:03,384: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:51:03,385: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:51:04,394: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpf3aygctn/model/data/model/assets]
+[2025-07-30 11:51:50,644: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:51:50,647: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:51:50,647: INFO: common: created directory at: artifacts]
+[2025-07-30 11:51:52,308: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:51:52,586: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-07-30 11:51:52,591: INFO: helpers: Accessing as selvintuscano31]
+[2025-07-30 11:51:52,774: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 11:51:52,930: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-07-30 11:51:52,936: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:51:52,942: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:51:54,121: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpxf7hfy1_/model/data/model/assets]
+[2025-07-30 11:53:19,207: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:53:19,209: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:53:19,210: INFO: common: created directory at: artifacts]
+[2025-07-30 11:53:20,890: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:53:21,068: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 11:53:21,073: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:53:21,074: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:54:37,262: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:54:37,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:54:37,264: INFO: common: created directory at: artifacts]
+[2025-07-30 11:54:38,940: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:54:39,128: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 11:54:39,133: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:54:39,135: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:54:40,126: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpr48100kz/model/data/model/assets]
+[2025-07-30 11:55:30,898: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 11:55:30,901: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 11:55:30,901: INFO: common: created directory at: artifacts]
+[2025-07-30 11:55:32,623: INFO: common: json file saved at: scores.json]
+[2025-07-30 11:55:32,812: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 11:55:32,819: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 11:55:32,820: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 11:55:33,709: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpgjz_zkjf/model/data/model/assets]
+[2025-07-30 11:55:44,829: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/f9d27464fb624476a7b3f7f4e67bf93c/891775580b9442418ab1934dc7e4892e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 12:04:22,819: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:04:22,821: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:04:22,821: INFO: common: created directory at: artifacts]
+[2025-07-30 12:04:24,551: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:04:24,870: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 12:04:24,880: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 12:04:24,882: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 12:04:25,941: INFO: builder_impl: Assets written to: artifacts/training/saved_model/assets]
+[2025-07-30 12:08:01,892: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:08:01,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:08:01,895: INFO: common: created directory at: artifacts]
+[2025-07-30 12:08:03,607: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:08:03,810: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 12:08:03,817: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 12:08:03,818: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 12:08:04,785: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpdal3ygoj/model/data/model/assets]
+[2025-07-30 12:08:54,367: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:08:54,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:08:54,374: INFO: common: created directory at: artifacts]
+[2025-07-30 12:08:56,054: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:08:56,233: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/selvintuscano31/Kidney-Disease-Classification-Deep-Learning "HTTP/1.1 200 OK"]
+[2025-07-30 12:08:56,237: INFO: helpers: Initialized MLflow to track repo "selvintuscano31/Kidney-Disease-Classification-Deep-Learning"]
+[2025-07-30 12:08:56,238: INFO: helpers: Repository selvintuscano31/Kidney-Disease-Classification-Deep-Learning initialized!]
+[2025-07-30 12:08:57,113: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpt6b5yc_p/model/data/model/assets]
+[2025-07-30 12:14:26,710: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:14:26,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:14:26,713: INFO: common: created directory at: artifacts]
+[2025-07-30 12:14:28,450: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:14:29,621: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpc21rqe9z/model/data/model/assets]
+[2025-07-30 12:16:33,242: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:16:33,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:16:33,244: INFO: common: created directory at: artifacts]
+[2025-07-30 12:16:34,973: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:16:35,952: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp0sjuob0i/model/data/model/assets]
+[2025-07-30 12:17:51,540: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:17:51,542: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:17:51,543: INFO: common: created directory at: artifacts]
+[2025-07-30 12:17:53,256: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:17:54,482: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp4yk4zn7r/model/data/model/assets]
+[2025-07-30 12:20:21,890: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:20:21,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:20:21,893: INFO: common: created directory at: artifacts]
+[2025-07-30 12:20:23,597: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:20:24,528: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpm2ogfgwi/model/data/model/assets]
+[2025-07-30 12:22:19,464: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:22:19,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:22:19,468: INFO: common: created directory at: artifacts]
+[2025-07-30 12:22:21,181: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:22:22,025: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpz93i1s2y/model/data/model/assets]
+[2025-07-30 12:25:01,577: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:25:01,580: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:25:01,581: INFO: common: created directory at: artifacts]
+[2025-07-30 12:25:03,318: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:25:04,580: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpas9ueq8r/model/data/model/assets]
+[2025-07-30 12:36:58,398: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:36:58,401: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:36:58,402: INFO: common: created directory at: artifacts]
+[2025-07-30 12:37:00,079: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:40:26,874: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:40:26,876: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:40:26,877: INFO: common: created directory at: artifacts]
+[2025-07-30 12:40:28,587: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:41:37,182: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:41:37,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:41:37,185: INFO: common: created directory at: artifacts]
+[2025-07-30 12:41:38,835: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:44:29,751: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:44:29,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:44:29,755: INFO: common: created directory at: artifacts]
+[2025-07-30 12:44:31,442: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:44:32,479: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp68i1jmd3/model/data/model/assets]
+[2025-07-30 12:45:46,597: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:45:46,599: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:45:46,600: INFO: common: created directory at: artifacts]
+[2025-07-30 12:45:48,356: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:46:50,695: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:46:50,698: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:46:50,699: INFO: common: created directory at: artifacts]
+[2025-07-30 12:46:52,408: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:46:53,399: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp405da6pb/model/data/model/assets]
+[2025-07-30 12:49:11,092: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 12:49:11,095: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 12:49:11,096: INFO: common: created directory at: artifacts]
+[2025-07-30 12:49:12,876: INFO: common: json file saved at: scores.json]
+[2025-07-30 12:49:13,846: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp38noio5y/model/data/model/assets]
+[2025-07-30 12:49:37,016: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/1a28650bd4fc486984a14a4c6b1ebf0c/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 15:12:31,451: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:12:31,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:12:31,454: INFO: common: created directory at: artifacts]
+[2025-07-30 15:12:33,197: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:12:34,530: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpksqd0xq5/model/data/model/assets]
+[2025-07-30 15:15:29,470: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:15:29,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:15:29,473: INFO: common: created directory at: artifacts]
+[2025-07-30 15:15:31,131: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:15:32,351: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpbxe7z5ux/model/data/model/assets]
+[2025-07-30 15:40:39,362: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 15:40:39,363: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:40:39,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:40:39,364: INFO: common: created directory at: artifacts]
+[2025-07-30 15:40:39,364: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 15:40:39,364: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:40:44,504: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:40:44,805: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:40:44,805: INFO: main: *******************]
+[2025-07-30 15:40:44,805: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 15:40:44,806: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:40:44,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:40:44,806: INFO: common: created directory at: artifacts]
+[2025-07-30 15:40:44,806: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 15:40:45,102: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 15:40:45,163: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:40:45,164: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:40:45,211: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 15:40:45,211: INFO: main: *******************]
+[2025-07-30 15:40:45,211: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 15:40:45,212: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:40:45,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:40:45,212: INFO: common: created directory at: artifacts]
+[2025-07-30 15:40:45,212: INFO: common: created directory at: artifacts/training]
+[2025-07-30 15:40:49,934: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 15:40:49,934: INFO: main: *******************]
+[2025-07-30 15:40:49,934: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 15:40:49,935: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:40:49,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:40:49,935: INFO: common: created directory at: artifacts]
+[2025-07-30 15:40:51,602: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:40:51,603: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:40:51,603: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:48:31,635: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:48:31,637: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:48:31,638: INFO: common: created directory at: artifacts]
+[2025-07-30 15:48:33,404: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:48:33,437: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment]
+[2025-07-30 15:48:34,614: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp9m_36azm/model/data/model/assets]
+[2025-07-30 15:50:46,376: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 15:50:46,377: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:50:46,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:50:46,377: INFO: common: created directory at: artifacts]
+[2025-07-30 15:50:46,377: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 15:50:46,378: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:50:51,810: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:50:52,094: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:50:52,094: INFO: main: *******************]
+[2025-07-30 15:50:52,094: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 15:50:52,095: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:50:52,095: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:50:52,095: INFO: common: created directory at: artifacts]
+[2025-07-30 15:50:52,095: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 15:50:52,360: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 15:50:52,410: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:50:52,411: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:50:52,453: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 15:50:52,453: INFO: main: *******************]
+[2025-07-30 15:50:52,453: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 15:50:52,454: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:50:52,454: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:50:52,454: INFO: common: created directory at: artifacts]
+[2025-07-30 15:50:52,455: INFO: common: created directory at: artifacts/training]
+[2025-07-30 15:50:57,160: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 15:50:57,161: INFO: main: *******************]
+[2025-07-30 15:50:57,161: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 15:50:57,162: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:50:57,162: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:50:57,162: INFO: common: created directory at: artifacts]
+[2025-07-30 15:50:58,728: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:50:58,728: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:50:58,728: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:54:08,333: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 15:54:08,334: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:54:08,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:54:08,334: INFO: common: created directory at: artifacts]
+[2025-07-30 15:54:08,334: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 15:54:08,334: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:54:13,131: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:54:13,382: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:54:13,382: INFO: main: *******************]
+[2025-07-30 15:54:13,382: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 15:54:13,383: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:54:13,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:54:13,383: INFO: common: created directory at: artifacts]
+[2025-07-30 15:54:13,383: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 15:54:13,645: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 15:54:13,697: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:54:13,698: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:54:13,742: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 15:54:13,742: INFO: main: *******************]
+[2025-07-30 15:54:13,742: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 15:54:13,743: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:54:13,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:54:13,743: INFO: common: created directory at: artifacts]
+[2025-07-30 15:54:13,743: INFO: common: created directory at: artifacts/training]
+[2025-07-30 15:54:18,418: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 15:54:18,418: INFO: main: *******************]
+[2025-07-30 15:54:18,418: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 15:54:18,419: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:54:18,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:54:18,420: INFO: common: created directory at: artifacts]
+[2025-07-30 15:54:19,987: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:54:19,987: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:54:20,300: ERROR: main: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}]
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    model_evalution.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_evaluation_mlflow.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 131, in create_run
+    return self.store.create_run(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 207, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}
+[2025-07-30 15:55:56,604: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 15:55:56,605: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:55:56,606: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:55:56,606: INFO: common: created directory at: artifacts]
+[2025-07-30 15:55:56,606: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 15:55:56,606: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:56:02,359: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 15:56:02,614: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 15:56:02,614: INFO: main: *******************]
+[2025-07-30 15:56:02,614: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 15:56:02,614: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:56:02,615: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:56:02,615: INFO: common: created directory at: artifacts]
+[2025-07-30 15:56:02,615: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 15:56:02,874: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 15:56:02,930: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:56:02,932: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 15:56:02,975: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 15:56:02,975: INFO: main: *******************]
+[2025-07-30 15:56:02,975: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 15:56:02,976: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:56:02,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:56:02,976: INFO: common: created directory at: artifacts]
+[2025-07-30 15:56:02,976: INFO: common: created directory at: artifacts/training]
+[2025-07-30 15:56:07,649: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 15:56:07,649: INFO: main: *******************]
+[2025-07-30 15:56:07,649: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 15:56:07,650: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 15:56:07,650: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 15:56:07,651: INFO: common: created directory at: artifacts]
+[2025-07-30 15:56:09,200: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:56:09,200: INFO: common: json file saved at: scores.json]
+[2025-07-30 15:56:09,493: ERROR: main: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}]
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    model_evalution.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_evaluation_mlflow.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 131, in create_run
+    return self.store.create_run(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 207, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}
+[2025-07-30 16:11:38,000: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:11:38,001: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:11:38,001: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:11:38,001: INFO: common: created directory at: artifacts]
+[2025-07-30 16:11:38,001: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:11:38,001: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:11:43,466: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:11:43,740: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:11:43,740: INFO: main: *******************]
+[2025-07-30 16:11:43,740: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:11:43,740: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:11:43,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:11:43,741: INFO: common: created directory at: artifacts]
+[2025-07-30 16:11:43,741: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:11:44,077: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:11:44,133: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:11:44,135: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:11:44,185: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:11:44,185: INFO: main: *******************]
+[2025-07-30 16:11:44,185: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:11:44,186: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:11:44,187: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:11:44,187: INFO: common: created directory at: artifacts]
+[2025-07-30 16:11:44,187: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:11:48,850: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:11:48,851: INFO: main: *******************]
+[2025-07-30 16:11:48,851: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:11:48,851: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:11:48,852: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:11:48,852: INFO: common: created directory at: artifacts]
+[2025-07-30 16:11:50,421: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:11:50,421: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:11:51,769: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp61frvywk/model/data/model/assets]
+[2025-07-30 16:12:16,289: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:13:35,087: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:13:35,088: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:13:35,088: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:13:35,088: INFO: common: created directory at: artifacts]
+[2025-07-30 16:13:35,088: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:13:35,088: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:13:40,093: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:13:40,348: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:13:40,348: INFO: main: *******************]
+[2025-07-30 16:13:40,348: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:13:40,349: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:13:40,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:13:40,349: INFO: common: created directory at: artifacts]
+[2025-07-30 16:13:40,350: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:13:40,614: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:13:40,666: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:13:40,667: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:13:40,712: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:13:40,712: INFO: main: *******************]
+[2025-07-30 16:13:40,712: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:13:40,713: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:13:40,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:13:40,713: INFO: common: created directory at: artifacts]
+[2025-07-30 16:13:40,713: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:13:53,363: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:13:53,364: INFO: main: *******************]
+[2025-07-30 16:13:53,364: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:13:53,365: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:13:53,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:13:53,365: INFO: common: created directory at: artifacts]
+[2025-07-30 16:13:54,892: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:13:54,892: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:13:56,135: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpqr7r6x8e/model/data/model/assets]
+[2025-07-30 16:14:22,341: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:15:45,569: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:15:45,570: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:15:45,570: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:15:45,570: INFO: common: created directory at: artifacts]
+[2025-07-30 16:15:45,570: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:15:45,570: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:15:51,024: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:15:51,280: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:15:51,280: INFO: main: *******************]
+[2025-07-30 16:15:51,280: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:15:51,281: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:15:51,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:15:51,281: INFO: common: created directory at: artifacts]
+[2025-07-30 16:15:51,281: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:15:51,544: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:15:51,595: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:15:51,596: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:15:51,637: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:15:51,637: INFO: main: *******************]
+[2025-07-30 16:15:51,637: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:15:51,638: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:15:51,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:15:51,639: INFO: common: created directory at: artifacts]
+[2025-07-30 16:15:51,639: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:16:04,212: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:16:04,213: INFO: main: *******************]
+[2025-07-30 16:16:04,213: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:16:04,214: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:16:04,215: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:16:04,215: INFO: common: created directory at: artifacts]
+[2025-07-30 16:16:05,742: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:16:05,742: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:16:07,067: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpz62olar1/model/data/model/assets]
+[2025-07-30 16:16:30,850: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:19:12,329: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:19:12,330: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:19:12,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:19:12,331: INFO: common: created directory at: artifacts]
+[2025-07-30 16:19:12,331: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:19:12,331: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:19:17,522: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:19:17,798: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:19:17,798: INFO: main: *******************]
+[2025-07-30 16:19:17,798: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:19:17,799: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:19:17,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:19:17,799: INFO: common: created directory at: artifacts]
+[2025-07-30 16:19:17,799: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:19:18,112: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:19:18,167: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:19:18,168: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:19:18,218: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:19:18,218: INFO: main: *******************]
+[2025-07-30 16:19:18,218: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:19:18,219: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:19:18,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:19:18,219: INFO: common: created directory at: artifacts]
+[2025-07-30 16:19:18,219: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:19:26,856: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:19:26,856: INFO: main: *******************]
+[2025-07-30 16:19:26,856: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:19:26,857: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:19:26,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:19:26,857: INFO: common: created directory at: artifacts]
+[2025-07-30 16:19:28,408: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:19:28,408: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:19:29,717: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmpi1ynx229/model/data/model/assets]
+[2025-07-30 16:19:41,595: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:19:51,393: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:20:03,401: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:20:31,158: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:21:04,038: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:21:04,616: ERROR: main: API request to https://dagshub.com/selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    model_evalution.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_evaluation_mlflow.py", line 82, in log_into_mlflow
+    mlflow.tensorflow.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tensorflow/__init__.py", line 222, in log_model
+    return Model.log(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/models/model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/artifact/http_artifact_repo.py", line 40, in log_artifacts
+    self.log_artifact(os.path.join(root, f), artifact_dir)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/artifact/http_artifact_repo.py", line 25, in log_artifact
+    resp = http_request(self._host_creds, endpoint, "PUT", data=f)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/2684e7794e61459ebf439f4b35cb3897/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+[2025-07-30 16:25:34,746: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:25:34,747: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:25:34,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:25:34,748: INFO: common: created directory at: artifacts]
+[2025-07-30 16:25:34,748: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:25:34,748: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:25:40,095: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:25:40,385: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:25:40,386: INFO: main: *******************]
+[2025-07-30 16:25:40,386: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:25:40,387: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:25:40,387: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:25:40,387: INFO: common: created directory at: artifacts]
+[2025-07-30 16:25:40,387: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:25:40,690: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:25:40,753: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:25:40,755: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:25:40,805: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:25:40,805: INFO: main: *******************]
+[2025-07-30 16:25:40,805: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:25:40,805: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:25:40,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:25:40,806: INFO: common: created directory at: artifacts]
+[2025-07-30 16:25:40,806: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:25:49,529: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:25:49,529: INFO: main: *******************]
+[2025-07-30 16:25:49,529: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:25:49,530: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:25:49,531: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:25:49,531: INFO: common: created directory at: artifacts]
+[2025-07-30 16:25:51,078: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:25:51,078: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:25:52,420: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmptrto9xjy/model/data/model/assets]
+[2025-07-30 16:26:01,998: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:26:06,805: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:26:19,513: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:26:39,474: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:27:14,762: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:27:15,258: ERROR: main: API request to https://dagshub.com/selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    model_evalution.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_evaluation_mlflow.py", line 96, in log_into_mlflow
+    mlflow.tensorflow.log_model(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tensorflow/__init__.py", line 222, in log_model
+    return Model.log(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/models/model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/artifact/http_artifact_repo.py", line 40, in log_artifacts
+    self.log_artifact(os.path.join(root, f), artifact_dir)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/store/artifact/http_artifact_repo.py", line 25, in log_artifact
+    resp = http_request(self._host_creds, endpoint, "PUT", data=f)
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/0271ce6894594a19b5f96b990dc34f76/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)')))
+[2025-07-30 16:27:41,487: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:27:41,488: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:27:41,488: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:27:41,488: INFO: common: created directory at: artifacts]
+[2025-07-30 16:27:41,488: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:27:41,488: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:27:45,806: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:27:46,087: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:27:46,087: INFO: main: *******************]
+[2025-07-30 16:27:46,087: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:27:46,088: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:27:46,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:27:46,089: INFO: common: created directory at: artifacts]
+[2025-07-30 16:27:46,089: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:27:46,355: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:27:46,501: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:27:46,503: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:27:46,549: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:27:46,549: INFO: main: *******************]
+[2025-07-30 16:27:46,549: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:27:46,549: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:27:46,550: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:27:46,550: INFO: common: created directory at: artifacts]
+[2025-07-30 16:27:46,550: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:27:47,596: ERROR: main: Graph execution error:
+
+Detected at node 'SGD/SGD/update_1/ResourceApplyGradientDescent' defined at (most recent call last):
+    File "main.py", line 39, in <module>
+      model_trainer.main()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+      training.train()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+      self.model.fit(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1084, in train_step
+      self.optimizer.minimize(loss, self.trainable_variables, tape=tape)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 601, in minimize
+      return self.apply_gradients(grads_and_vars, name=name)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 760, in apply_gradients
+      return tf.__internal__.distribute.interim.maybe_merge_call(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 819, in _distributed_apply
+      update_op = distribution.extended.update(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 798, in apply_grad_to_update_var
+      update_op = self._resource_apply_dense(grad, var, **apply_kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/gradient_descent.py", line 165, in _resource_apply_dense
+      return tf.raw_ops.ResourceApplyGradientDescent(
+Node: 'SGD/SGD/update_1/ResourceApplyGradientDescent'
+var and delta do not have the same shape[1] [2]
+	 [[{{node SGD/SGD/update_1/ResourceApplyGradientDescent}}]] [Op:__inference_train_function_1794]]
+Traceback (most recent call last):
+  File "main.py", line 39, in <module>
+    model_trainer.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+    training.train()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+    self.model.fit(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'SGD/SGD/update_1/ResourceApplyGradientDescent' defined at (most recent call last):
+    File "main.py", line 39, in <module>
+      model_trainer.main()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+      training.train()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+      self.model.fit(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1084, in train_step
+      self.optimizer.minimize(loss, self.trainable_variables, tape=tape)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 601, in minimize
+      return self.apply_gradients(grads_and_vars, name=name)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 760, in apply_gradients
+      return tf.__internal__.distribute.interim.maybe_merge_call(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 819, in _distributed_apply
+      update_op = distribution.extended.update(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 798, in apply_grad_to_update_var
+      update_op = self._resource_apply_dense(grad, var, **apply_kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/gradient_descent.py", line 165, in _resource_apply_dense
+      return tf.raw_ops.ResourceApplyGradientDescent(
+Node: 'SGD/SGD/update_1/ResourceApplyGradientDescent'
+var and delta do not have the same shape[1] [2]
+	 [[{{node SGD/SGD/update_1/ResourceApplyGradientDescent}}]] [Op:__inference_train_function_1794]
+[2025-07-30 16:28:34,038: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:28:34,039: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:28:34,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:28:34,039: INFO: common: created directory at: artifacts]
+[2025-07-30 16:28:34,039: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:28:34,039: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:28:39,510: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:28:39,765: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:28:39,765: INFO: main: *******************]
+[2025-07-30 16:28:39,765: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:28:39,765: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:28:39,766: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:28:39,766: INFO: common: created directory at: artifacts]
+[2025-07-30 16:28:39,766: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:28:40,028: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:28:40,080: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:28:40,081: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:28:40,123: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:28:40,124: INFO: main: *******************]
+[2025-07-30 16:28:40,124: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:28:40,124: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:28:40,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:28:40,125: INFO: common: created directory at: artifacts]
+[2025-07-30 16:28:40,125: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:28:40,929: ERROR: main: Graph execution error:
+
+Detected at node 'SGD/SGD/update_1/ResourceApplyGradientDescent' defined at (most recent call last):
+    File "main.py", line 39, in <module>
+      model_trainer.main()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+      training.train()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+      self.model.fit(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1084, in train_step
+      self.optimizer.minimize(loss, self.trainable_variables, tape=tape)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 601, in minimize
+      return self.apply_gradients(grads_and_vars, name=name)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 760, in apply_gradients
+      return tf.__internal__.distribute.interim.maybe_merge_call(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 819, in _distributed_apply
+      update_op = distribution.extended.update(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 798, in apply_grad_to_update_var
+      update_op = self._resource_apply_dense(grad, var, **apply_kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/gradient_descent.py", line 165, in _resource_apply_dense
+      return tf.raw_ops.ResourceApplyGradientDescent(
+Node: 'SGD/SGD/update_1/ResourceApplyGradientDescent'
+var and delta do not have the same shape[1] [2]
+	 [[{{node SGD/SGD/update_1/ResourceApplyGradientDescent}}]] [Op:__inference_train_function_1794]]
+Traceback (most recent call last):
+  File "main.py", line 39, in <module>
+    model_trainer.main()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+    training.train()
+  File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+    self.model.fit(
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'SGD/SGD/update_1/ResourceApplyGradientDescent' defined at (most recent call last):
+    File "main.py", line 39, in <module>
+      model_trainer.main()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/pipeline/stage03_model_training.py", line 21, in main
+      training.train()
+    File "/Users/selvintuscano/Desktop/Project/Kidney-Disease-Classification-using-Deep-Learning/src/cnnClassifier/components/model_training.py", line 76, in train
+      self.model.fit(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/engine/training.py", line 1084, in train_step
+      self.optimizer.minimize(loss, self.trainable_variables, tape=tape)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 601, in minimize
+      return self.apply_gradients(grads_and_vars, name=name)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 760, in apply_gradients
+      return tf.__internal__.distribute.interim.maybe_merge_call(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 819, in _distributed_apply
+      update_op = distribution.extended.update(
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/optimizer_v2.py", line 798, in apply_grad_to_update_var
+      update_op = self._resource_apply_dense(grad, var, **apply_kwargs)
+    File "/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/src/optimizers/legacy/gradient_descent.py", line 165, in _resource_apply_dense
+      return tf.raw_ops.ResourceApplyGradientDescent(
+Node: 'SGD/SGD/update_1/ResourceApplyGradientDescent'
+var and delta do not have the same shape[1] [2]
+	 [[{{node SGD/SGD/update_1/ResourceApplyGradientDescent}}]] [Op:__inference_train_function_1794]
+[2025-07-30 16:30:08,753: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-30 16:30:08,754: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:30:08,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:30:08,754: INFO: common: created directory at: artifacts]
+[2025-07-30 16:30:08,754: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 16:30:08,754: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:30:14,116: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1w9KwcJMcP__GMqkff5bCO_hAI5yzVRE0/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-30 16:30:14,369: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-30 16:30:14,369: INFO: main: *******************]
+[2025-07-30 16:30:14,369: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-30 16:30:14,370: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:30:14,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:30:14,370: INFO: common: created directory at: artifacts]
+[2025-07-30 16:30:14,370: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-30 16:30:14,635: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-30 16:30:14,688: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:30:14,690: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-07-30 16:30:14,737: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-30 16:30:14,737: INFO: main: *******************]
+[2025-07-30 16:30:14,737: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-30 16:30:14,738: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:30:14,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:30:14,739: INFO: common: created directory at: artifacts]
+[2025-07-30 16:30:14,739: INFO: common: created directory at: artifacts/training]
+[2025-07-30 16:30:19,410: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-30 16:30:19,410: INFO: main: *******************]
+[2025-07-30 16:30:19,410: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-30 16:30:19,411: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-07-30 16:30:19,411: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-30 16:30:19,412: INFO: common: created directory at: artifacts]
+[2025-07-30 16:30:20,995: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:30:20,996: INFO: common: json file saved at: scores.json]
+[2025-07-30 16:30:22,225: INFO: builder_impl: Assets written to: /var/folders/2k/2h026m417z1b3v_6p87mbf7c0000gn/T/tmp7dinbcc6/model/data/model/assets]
+[2025-07-30 16:30:34,239: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/41a3a9c9a6c645a59cdfbb3e1f3e403e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:30:38,477: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/41a3a9c9a6c645a59cdfbb3e1f3e403e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:30:49,666: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/41a3a9c9a6c645a59cdfbb3e1f3e403e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:31:10,345: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2653)'))': /selvintuscano31/Kidney-Disease-Classification-using-Deep-Learning.mlflow/api/2.0/mlflow-artifacts/artifacts/421c5c3671524e98a0119b1e25cd6221/41a3a9c9a6c645a59cdfbb3e1f3e403e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-07-30 16:31:27,725: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
