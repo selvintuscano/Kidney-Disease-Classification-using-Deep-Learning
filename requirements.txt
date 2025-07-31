@@ -1,6 +1,5 @@
 tensorflow-macos==2.13.0; sys_platform == "darwin"
 tensorflow==2.13.0; sys_platform != "darwin"
-tensorflow-metal
 pandas 
 dvc
 mlflow==2.2.2
